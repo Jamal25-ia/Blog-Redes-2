@@ -30,7 +30,7 @@
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Integrantes" style="color: white;">Integrantes</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html" style="color: white;">Unidad IV: Identificación de requisitos y limitaciones técnicas</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html" style="color: white;">Unidad V: Administración y monitoreo de la red</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Unidad_V" style="color: white;">Unidad V: Administración y monitoreo de la red</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html" style="color: white;">Unidad VI: Integración LAN WAN</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html" style="color: white;">Bibliografías</a></li>
                     </ul>
@@ -59,22 +59,25 @@
                     <h5 class="card-subtitle text-muted mb-3 text-center">Jesús Hernández</h5>
                     <h5 class="card-subtitle text-muted mb-3 text-center">Luis Andrade</h5>
                 </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <!-- Card for Activity-->
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4" id="Unidad_V">
+                    <h2 class="card-title text-center fw-bold mb-4" style="font-family: 'Lora', serif;">Unidad V: Administración y monitoreo de la red</h2>
 
-                <h2 class="card-title text-center fw-bold mb-4" style="font-family: 'Lora', serif;">Bibliografía</h2>
-
-                <div class="card-body p-4" id="Integrantes">
-                    <h2 class="card-title text-center fw-bold mb-4" style="font-family: 'Lora', serif;">Integrantes:</h2>
-                    <h5 class="card-subtitle text-muted mb-3 text-center">Jamal Souki</h5>
-                    <h5 class="card-subtitle text-muted mb-3 text-center">Jesús Hernández</h5>
-                    <h5 class="card-subtitle text-muted mb-3 text-center">Luis Andrade</h5>
-
-
-                    <h2 class="card-title text-center fw-bold mb-4" style="font-family: 'Lora', serif;">Bibliografía</h2>
+                    <h5 class="card-subtitle text-muted mb-3 text-center">..................</h5>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
         <br>
         <!-- Footer-->
@@ -93,3 +96,19 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+
+<script>
+    // Cierra el menú colapsable al hacer clic en un enlace
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const navbarCollapse = document.getElementById('navbarResponsive');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            // Si el menú está colapsado, ciérralo
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
+        });
+    });
+</script>
