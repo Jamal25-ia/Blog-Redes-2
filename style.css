@@ -4,6 +4,16 @@ html, body {
   height: 100%; /* Asegura que el html y el body ocupen el 100% de la altura */
 }
 
+.navbar-nav {
+    margin-left: 0; /* Asegúrate de que no haya margen a la izquierda */
+    display: flex; /* Utilizar flex para que se alineen horizontalmente */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 1rem; /* Espacio entre los elementos de navegación, ajusta según necesites */
+}
+
+
 body {
   font-family: system-ui;
   color: white;
