@@ -29,3 +29,28 @@ body {
   background: black; /* Fondo negro para mayor visibilidad */
   z-index: -1; /* Para que esté detrás del contenido */
 }
+
+
+/* Añade esto para ajustar el margen superior */
+
+#Integrantes, #Unidad_V, #Unidad_IV, #Unidad_VI, #Biliografias{
+  scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+#Integrantes {
+    margin-top: 140px; /* Ajusta el valor según la altura de tu navbar */
+}
+
+/* Clase personalizada para un texto más oscuro */
+.text-custom-muted {
+  color: #343a40; /* Un gris oscuro */
+}
+  
+/* Cambia el color de los enlaces del navbar al pasar el cursor */
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease; /* Efecto de transición suave */
+}
+.navbar-nav .nav-link:hover {
+  color: #ffcc00; /* Cambia el color a amarillo dorado cuando pases el cursor */
+}
