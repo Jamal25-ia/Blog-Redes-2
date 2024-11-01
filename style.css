@@ -54,3 +54,35 @@ body {
 .navbar-nav .nav-link:hover {
   color: #ffcc00; /* Cambia el color a amarillo dorado cuando pases el cursor */
 }
+
+
+
+/* Hace que aparezca + al pasar mouse encima */
+.project-link {
+    position: relative;
+    display: inline-block;
+}
+
+.project-link::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajuste para centrar el símbolo */
+    font-size: 15em; /* Tamaño del signo de más */
+    color: rgba(255, 255, 255, 0); /* Totalmente transparente al inicio */
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente al inicio */
+    border-radius: 50%;
+    width: 280px; /* Ancho del círculo */
+    height: 280px; /* Altura del círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s, background-color 0.3s;
+    pointer-events: none; /* Evita interferencia con el mouse */
+}
+
+.project-link:hover::before {
+    color: rgba(255, 255, 255, 0.8); /* Color blanco ligeramente transparente al hacer hover */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con menor transparencia */
+}
