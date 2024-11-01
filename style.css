@@ -61,7 +61,11 @@ body {
 .project-link {
     position: relative;
     display: inline-block;
+    
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Hereda el color del texto padre */
 }
+
 
 .project-link::before {
     content: "+";
