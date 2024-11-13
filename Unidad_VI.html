@@ -219,15 +219,22 @@
                                         <ul>
                                             <li>
                                                 Microsoft Visio: Una herramienta popular para crear diagramas de red detallados y profesionales.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/Microsoft-Visio.PNG')">Imagen</button>
                                             </li>
+                                            <br>
                                             <li>
                                                 Lucidchart: Una aplicación en línea que permite la colaboración en tiempo real y es fácil de usar.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/LucidChart.jpg')">Imagen</button>
                                             </li>
+                                            <br>
                                             <li>
                                                 Draw.io: Una herramienta gratuita y de código abierto que ofrece una amplia gama de plantillas y formas para diagramas de red.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/drawio.png')">Imagen</button>
                                             </li>
+                                            <br>
                                             <li>
                                                 Cisco Packet Tracer: Una herramienta de simulación de red que permite diseñar y probar redes virtuales.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/Cisco.gif')">Imagen</button>
                                             </li>
                                         </ul>
                                     </li>
@@ -259,12 +266,15 @@
                                         <ul>
                                             <li>
                                                 Diagrama Físico: Muestra la disposición física de los dispositivos y las conexiones en la red.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('https://lh6.googleusercontent.com/proxy/hqeT29pXJ7w1CJsqvCqfb6JQNnljW2Svmyf-lIKOcy4H0rWkUgaNWCVjpEJ7bEY2pEXfSwRdAyJTFoZpO1YhdXbjPkFN5A_pNYT8fCSQLLPHOlQTUOM')">Imagen</button>
                                             </li>
                                             <li>
                                                 Diagrama Lógico: Representa las conexiones lógicas y el flujo de datos entre los dispositivos.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('https://images.slideplayer.es/40/11118528/slides/slide_9.jpg')">Imagen</button>
                                             </li>
                                             <li>
                                                 Diagrama de Topología: Ilustra la estructura general de la red, incluyendo las subredes y los segmentos de red.
+                                                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('https://www.researchgate.net/profile/Jorge-Valdez-Martinez/publication/349146725/figure/fig2/AS:989373315162116@1612896388883/Diagrama-de-la-topologia-de-red-mixta-1.jpg')">Imagen</button>
                                             </li>
                                         </ul>
                                     </li>
@@ -311,7 +321,21 @@
             </div>
         </footer>
 
+        <!-- Modal Imagenes-->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">Vista de Imagen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modalImage" src="" alt="Imagen en grande" class="w-100 h-100 object-fit-cover">
 
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -354,6 +378,16 @@
                 });
             });
 
+        </script>
+
+
+        <!-- Script para cambiar la imagen del modal -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script>
+            function showImage(imageSrc) {
+                document.getElementById("modalImage").src = imageSrc;
+            }
         </script>
     </body>
 </html>
