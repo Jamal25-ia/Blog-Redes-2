@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Redes II</title>
+        <meta property="og:title" content="Blog Materia Redes II">
+        <meta property="og:description" content="Este es un blog que habla sobre algunos de los temas vistos en la materia de redes 2.">
+        <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUeRv-RFW2_55rgpF4-ZRB-ZgVw9dwiG1nHA&s">
+    
+        <meta property="og:type" content="website">
+
+        <link rel="icon" type="image/png" href="assets/img/red-global.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #002847; position: fixed; top: 0; left: 0; right: 0; z-index: 1000;" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html" style="color: white;"><img src="assets/img/png-clipart-atlantic-university-columbia-university-ugma-facultad-de-derecho-student-student-angle-people.png" alt="Logo" style="height: 60px; margin-right: 2px;  border-radius: 5px;"> Redes 2</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color: white; border: 1px solid gray;">
+                    Contenido
+                    <i class="fas fa-bars"></i>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="#Integrantes">Integrantes</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="Unidad_IV.html">Unidad IV: Identificación de requisitos y limitaciones técnicas</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="Unidad_V.html">Unidad V: Administración y monitoreo de la red</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="Unidad_VI.html">Unidad VI: Integración LAN WAN</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="#Biliografias">Bibliografías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header-->
+        
+        <!-- partial:index.partial.html -->
+        <canvas id="canvas1"></canvas>
+        <!-- partial -->
+        <script  src="./script.js"></script>
+
+        <!-- Main Content-->
+        <div class=".container-fluid px-4 px-lg-5 my-5" style="color: black;">
+            <br>
+            <section id="Integrantes">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body p-4">
+                                <h2 class="card-title text-center fw-bold mb-4" style="font-family: 'Lora', serif;">Integrantes:</h2>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Jamal Souki</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Jesús Hernández</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Luis Andrade</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Angelica Sardiña</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Adalberto Perez</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Rafael Arciniega</h5>
+                                <h5 class="card-subtitle text-custom-muted mb-3 text-center">Carlos Adrian</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section id="Unidad_V">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body p-4">
+<div style="text-align: justify; font-family: Arial, sans-serif, font-size: medium;;" lang="es-ES">
+
+<p"><span style="color: #000000;"><span><span style=""><span >Proyecto de redes que incluye integraci&oacute;n WAN, administraci&oacute;n y monitoreo de la red, identificaci&oacute;n de requisitos y limitaciones t&eacute;cnicas, WLAN y trabajos remotos. La red debe ser una red guiada.</span></span></span></span></p>
+<p">&nbsp;</p>
+<p"><span style="color: #000000;"><span><span ><span ><strong>Proyecto de Redes</strong></span></span></span></span><span style="color: #000000;"><span ><span ><span >: "Optimizaci&oacute;n de la Red Corporativa para Empresa XYZ"</span></span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><strong>Objetivo: </strong></span></span></span></span><span style="color: #000000;"><span ><span ><span >Mejorar la infraestructura de red de la Empresa XYZ para soportar conectividad WAN, administraci&oacute;n y monitoreo eficientes, identificaci&oacute;n de requisitos t&eacute;cnicos y limitaciones, implementaci&oacute;n de WLAN y soporte para trabajo remoto</span></span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><strong>Alcance del Proyecto:</strong></span></span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><em><strong>1. Integraci&oacute;n WAN:</strong></em></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Conectar oficinas regionales con la sede central utilizando una red de &aacute;rea amplia (WAN)</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Implementar enlaces redundantes para garantizar la disponibilidad y continuidad del servicio</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Utilizar tecnolog&iacute;as como MPLS o VPN para asegurar la comunicaci&oacute;n entre sitios</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><em><strong>2. Administraci&oacute;n y Monitoreo de la Red:</strong></em></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Implementar una plataforma de administraci&oacute;n centralizada para monitorear y gestionar todos los dispositivos de red.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Utilizar herramientas como Nagios, Zabbix o PRTG para el monitoreo proactivo.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Configurar alertas y reportes para detectar y resolver problemas antes de que afecten a los usuarios</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><em><strong>3. Identificaci&oacute;n de Requisitos y Limitaciones T&eacute;cnicas:</strong></em></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Realizar un an&aacute;lisis exhaustivo de los requisitos de la red, incluyendo ancho de banda necesario, latencia aceptable y tolerancia a fallos</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Identificar limitaciones t&eacute;cnicas como capacidad de hardware, restricciones presupuestarias y compatibilidad con sistemas existentes.</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><em><strong>4. WLAN (Wireless LAN):</strong></em></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Dise&ntilde;ar e implementar una red inal&aacute;mbrica robusta y segura dentro de las oficinas</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Configurar puntos de acceso (AP) para cubrir todas las &aacute;reas cr&iacute;ticas con Wi-Fi.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Utilizar tecnolog&iacute;as de seguridad como WPA3 y control de acceso basado en roles.</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><span ><span ><span ><em><strong>5. Soporte para Trabajos Remotos:</strong></em></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Establecer acceso seguro para empleados remotos a trav&eacute;s de VPN.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Implementar pol&iacute;ticas de acceso remoto y gesti&oacute;n de identidades (IAM).</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Asegurar el acceso a recursos corporativos como servidores, aplicaciones y almacenamiento de manera segura</span></span></span></span></p>
+    </li>
+</ul>
+<p >&nbsp;</p>
+<p align="center"><span style="color: #000000;"><span ><span ><span ><strong>Estructura de la </strong></span></span></span></span><span style="color: #000000;"><span ><span ><span ><strong>Empresa XYZ</strong></span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Primer Piso:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Hay 4 oficinas cada una con un computador y una impresora.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Las impresoras se conectar&aacute;n a un servidor de impresi&oacute;n. Se recomienda un switch para conectar las impresoras y el servidor. </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Segundo Piso:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >3 oficinas con 2 computadoras cada una. </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Se propone un switch central para conectar todas las oficinas de los analistas. </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Tercer Piso: </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >2 laboratorios y 4 equipos en cada una. </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Se propone un switch para cada laboratorio y un switch principal para interconectar los laboratorios. </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Cuarto Piso </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Hay 4 oficinas cada una con un computador</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><strong>Fase 1: Planificaci&oacute;n y dise&ntilde;o</strong></span></span></span></p>
+<p><span ><span ><span ><strong>An&aacute;lisis de requisitos.</strong></span></span></span></p>
+<p><span ><span ><span ><u>Identificaci&oacute;n de Stakeh</u></span></span></span><span style="color: #000000;"><span ><span ><span ><u>olders</u></span></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >La identificaci&oacute;n de stakeholders es un proceso crucial en la gesti&oacute;n de proyectos, ya que permite identificar y analizar a todas las personas, grupos u organizaciones que pueden afectar o verse afectadas por el proyecto.</span></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Antes de identificar a los stakeholders, aseg&uacute;rate de tener claro el alcance, objetivos y caracter&iacute;sticas del proyecto. Esto te ayudar&aacute; a comprender qui&eacute;nes podr&iacute;an estar interesados o involucrados.</span></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Algunos de los stakeholders que podr&iacute;an ayudar para la fabricaci&oacute;n del proyecto son:</span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Gerentes de TI: Responsables de las decisiones tecnol&oacute;gicas y de infraestructura.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Usuarios finales: Empleados que utilizar&aacute;n la red (pueden agruparse por piso o departamento).</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Gerentes de departamento: Pueden tener opiniones sobre las necesidades de conectividad de sus equipos.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Proveedores de tecnolog&iacute;a: Empresas que suministrar&aacute;n hardware, software o servicios (por ejemplo, proveedores de equipos de red).</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Personal de soporte t&eacute;cnico: Encargados del mantenimiento de la red y resoluci&oacute;n de problemas.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Clientes: Si la red afecta de alguna manera la experiencia del cliente, tambi&eacute;n ser&iacute;an considerados stakeholders.</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><u>Recolecci&oacute;n de Informaci&oacute;n</u></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Si tenemos en cuenta de la </span></span></span></span><span style="color: #000000;"><span ><span ><span >Red Corporativa para Empresa XYZ, ser&iacute;a hacer entrevistas </span></span></span></span><span style="color: #000000;"><span ><span ><span >para reunir informaci&oacute;n, como:</span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Entrevistas: Hablar directamente con los interesados para comprender sus necesidades.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Encuestas: Dise&ntilde;ar cuestionarios para obtener informaci&oacute;n de un grupo m&aacute;s amplio.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Talleres: Organizar sesiones de trabajo colaborativo para discutir requisitos.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Observaci&oacute;n: Analizar el uso actual de la red y las herramientas para identificar mejoras. </span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><u>Definici&oacute;n de Requisitos Funcionales</u></span></span></span></p>
+<ul>
+    <li>
+        <p><span ><span ><span >Conectividad WAN:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >El sistema debe permitir la conexi&oacute;n segura entre la sede central y las oficinas regionales a trav&eacute;s de una red WAN.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Debe ofrecer capacidad de conmutaci&oacute;n autom&aacute;tica a enlaces redundantes en caso de fallas.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Gesti&oacute;n de Dispositivos:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Se debe implementar un sistema centralizado que permita la gesti&oacute;n y configuraci&oacute;n remota de todos los dispositivos de red desde una interfaz &uacute;nica.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >El sistema debe permitir la actualizaci&oacute;n de firmware y configuraciones de m&uacute;ltiples dispositivos simult&aacute;neamente.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Monitoreo Proactivo:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Debe proporcionar herramientas de monitoreo en tiempo real que permitan visualizar el estado de la red, la carga del tr&aacute;fico y el rendimiento de los dispositivos.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >El sistema debe enviar alertas y notificaciones autom&aacute;ticas a los administradores sobre problemas detectados, como ca&iacute;das de conexi&oacute;n o sobrecarga de tr&aacute;fico.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Seguridad de la Red:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >La red WLAN debe implementar medidas de seguridad robustas, incluyendo autenticaci&oacute;n WPA3 para conexiones inal&aacute;mbricas y control de acceso basado en roles.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >El sistema debe contar con un firewall que defina pol&iacute;ticas de seguridad y monitorice el tr&aacute;fico entrante y saliente.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Acceso Remoto Seguro:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Debe permitir a los empleados acceder a la red corporativa de manera segura mediante conexiones VPN.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >El sistema debe incluir autenticaci&oacute;n multifactor (MFA) para aumentar la seguridad del acceso remoto.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Gesti&oacute;n de Impresoras:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >El sistema debe permitir la gesti&oacute;n centralizada de un servidor de impresi&oacute;n que conecte todas las impresoras en la red.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Debe proporcionar capacidades de seguimiento del uso de impresoras y reportes sobre consumibles y mantenimiento.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Pol&iacute;ticas de Uso:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >El sistema debe permitir que se creen y administren pol&iacute;ticas de acceso a la red que regulen qui&eacute;n puede acceder a qu&eacute; recursos.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Debe incluir funcionalidades para auditar el registro de accesos y cambios realizados en la configuraci&oacute;n de la red.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Interfaz de Usuario:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >La plataforma de administraci&oacute;n de la red debe ofrecer una interfaz de usuario intuitiva para facilitar la navegaci&oacute;n y gesti&oacute;n de datos.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Debe permitir la personalizaci&oacute;n del panel de control de acuerdo con las necesidades del administrador.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Soporte de Ancho de Banda:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >El sistema debe soportar la separaci&oacute;n de tr&aacute;fico para diferentes aplicaciones (QoS) para garantizar un ancho de banda adecuado para aplicaciones cr&iacute;ticas.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Debe permitir la monitorizaci&oacute;n del uso del ancho de banda por departamento o por usuario.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><u>Definici&oacute;n de Requisitos No Funcionales</u></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Los requisitos no funcionales son caracter&iacute;sticas que definen c&oacute;mo debe comportarse un sistema y establecen criterios sobre su rendimiento, confiabilidad y otras cualidades que no est&aacute;n directamente relacionadas con las funciones o caracter&iacute;sticas espec&iacute;ficas del sistema. Para tu proyecto de optimizaci&oacute;n de la red de la Empresa XYZ, considera los siguientes requisitos no funcionales:</span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Disponibilidad: La red debe estar disponible un 99.9% del tiempo, garantizando un tiempo de inactividad m&iacute;nimo. Esto es cr&iacute;tico para que los empleados puedan trabajar sin interrupciones, especialmente aquellos que dependen de recursos remotos.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Escalabilidad: La infraestructura de red debe ser capaz de manejar un aumento del 25% en el n&uacute;mero de usuarios y dispositivos sin degradar el rendimiento. A medida que la empresa crece, la red debe ser capaz de adaptarse a las nuevas demandas sin necesidad de una reestructuraci&oacute;n completa.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Rendimiento: El tiempo de latencia en la comunicaci&oacute;n entre oficinas no debe exceder los 100 ms en condiciones normales de carga. Esto asegura que las aplicaciones cr&iacute;ticas para el negocio funcionen de manera eficiente y sin retrasos perceptibles.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Seguridad: La red debe implementar est&aacute;ndares de seguridad robustos, incluyendo cifrado de datos en tr&aacute;nsito (como AES-256 para VPN) y autenticaci&oacute;n multifactor para acceso remoto. La protecci&oacute;n de datos sensibles y la seguridad de la informaci&oacute;n son primordiales para la confianza de los empleados y la protecci&oacute;n del negocio.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Usabilidad: La plataforma de administraci&oacute;n y monitoreo debe ser f&aacute;cil de usar y operar, permitiendo a los administradores realizar tareas comunes con un m&aacute;ximo de 3 clics. Mejora la eficiencia del equipo de TI y reduce la curva de aprendizaje para nuevos usuarios.</span></span></span></span></p>
+    </li>
+</ul>
+<p><span ><span ><span ><u>Documentaci&oacute;n de Requisitos</u></span></span></span></p>
+<p><span ><span ><span >La documentaci&oacute;n de requisitos es una parte fundamental de cualquier proyecto, ya que ayuda a establecer claramente lo que se necesita para alcanzar los objetivos del proyecto. A continuaci&oacute;n, te ofrezco un esquema que puedes seguir para crear una Documentaci&oacute;n de Requisitos para tu proyecto de "Optimizaci&oacute;n de la Red Corporativa para Empresa XYZ"</span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Introducci&oacute;n </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Prop&oacute;sito del Documento </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Alcance del Proyecto </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Descripci&oacute;n General </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Visi&oacute;n del Proyecto </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Beneficios Esperados </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >3. Requisitos Funcionales </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Integraci&oacute;n WAN </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Administraci&oacute;n y Monitoreo </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Soporte para Trabajos Remotos </span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >4. Requisitos No Funcionales </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Rendimiento</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Seguridad</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Escalabilidad</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Disponibilidad</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >5. Requisitos T&eacute;cnicos </span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Hardware</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Software </span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Compatibilidad</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >6. Fuentes de Referencia </span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >7. Aprobaci&oacute;n Firmas de Aprobaci&oacute;n</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><strong>Dise&ntilde;o de la arquitectura de la red.</strong></span></span></span></p>
+<p><span ><span ><span ><u>Topolog&iacute;a de Red</u></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Para el proyecto de optimizaci&oacute;n de la red de la Empresa XYZ, es importante elegir una topolog&iacute;a de red adecuada que soporte la integraci&oacute;n WAN, la administraci&oacute;n y el monitoreo, as&iacute; como el trabajo remoto y la WLAN. Y analizando se decide usar una topolog&iacute;a jer&aacute;rquica o en estrella.</span></span></span></span></p>
+<p><span style="color: #000000;"><span ><span ><span >Las ventajas serian por lo siguiente:</span></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Escalabilidad: Permite agregar m&aacute;s dispositivos f&aacute;cilmente sin afectar la red existente.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Segmentaci&oacute;n del Tr&aacute;fico: Reduce el tr&aacute;fico en la red al segmentar diferentes partes de la red, lo que mejora el rendimiento.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Redundancia: La conexi&oacute;n redundante a la WAN garantiza que, si un enlace falla, los dem&aacute;s pueden continuar proporcionando acceso a la red.</span></span></span></span></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><u>Componentes de la Red</u></span></span></span></p>
+<ul>
+    <li>
+        <p><span ><span >Switch de N&uacute;cleo (Core Switch):</span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Ubicado en la sala de servidores o en un &aacute;rea designada del edificio.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Se encarga de gestionar el tr&aacute;fico entre los diferentes pisos y la conexi&oacute;n WAN.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Se conecta a la red WAN usando enlaces redundantes para asegurar la disponibilidad (MPLS o VPN).</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Switches de Distribuci&oacute;n (Distribution Switches):</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Primer Piso: Un switch conectado a las impresoras y al servidor de impresi&oacute;n.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Segundo Piso: Un switch central que conecta las 4 oficinas.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Tercer Piso: Un switch en cada laboratorio, conectado a un switch principal que interconecta ambos laboratorios.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Cuarto Piso: Un switch que conecta las 4 oficinas.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Puntos de Acceso Wireless (AP):</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Distribuidos estrat&eacute;gicamente en cada piso para asegurar la cobertura Wi-Fi en todas las &aacute;reas cr&iacute;ticas, conectados a los switches de distribuci&oacute;n.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Conexi&oacute;n Remota: Integraci&oacute;n de una VPN para permitir a los empleados acceso seguro a la red desde ubicaciones remotas.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p><span><u>Diagrama Fisico</u></span></p>
+<button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/Microsoft-Visio.PNG')">Imagen</button>
+<p><span><u>Diagrama Logica</u></span></p>
+<button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/Microsoft-Visio.PNG')">Imagen</button>
+<p><span><u>Diagrama Topologias</u></span></p>
+<button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('assets/img/Diagrama_Topologias.png')">Imagen</button>
+
+<p><a name="_GoBack"></a>&nbsp;</p>
+<p><span ><span ><span ><strong>Fase 2: Adquisici&oacute;n de hardware y software</strong></span></span></span></p>
+<p><span ><span ><span ><strong>Compra de dispositivos de red y licencias de software.</strong></span></span></span></p>
+<p><span ><span ><span ><u>Identificaci&oacute;n de Necesidades</u></span></span></span></p>
+<p><span ><span ><span >Esto permite </span></span></span><span style="color: #000000;"><span ><span ><span >entender claramente qu&eacute; se requiere para alcanzar los objetivos establecidos. A continuaci&oacute;n, te detallo algunas necesidades clave que se pueden considerar para tu proyecto de optimizaci&oacute;n de la red corporativa:</span></span></span></span></p>
+<ul>
+    <li>
+        <p><span ><span ><span >Requisitos T&eacute;cnicos:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Ancho de Banda: Determinar el ancho de banda requerido para satisfacer las necesidades actuales y futuras de la empresa.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Latencia: Establecer tolerancias de latencia para aplicaciones cr&iacute;ticas y experiencias de usuario.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos de Seguridad:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Protecci&oacute;n de Datos: Necesidades espec&iacute;ficas de encriptaci&oacute;n para la transmisi&oacute;n de datos sensibles.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Controles de Acceso: Definici&oacute;n de pol&iacute;ticas de acceso a la red y recursos corporativos, incluyendo gesti&oacute;n de usuarios y autenticaci&oacute;n multifactor.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos de Escalabilidad:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Crecimiento Futuro: Infraestructura que permita la incorporaci&oacute;n f&aacute;cil de nuevos empleados o sucursales.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Adaptabilidad: Capacidad para incluir nuevas tecnolog&iacute;as o servicios (como la IoT) sin necesidad de una reestructuraci&oacute;n costosa.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos de Monitoreo y Gesti&oacute;n:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Visibilidad en Tiempo Real: Herramientas que ofrezcan monitoreo proactivo del rendimiento de la red.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Alertas y Reportes: Sistemas que faciliten la detecci&oacute;n temprana de problemas y la generaci&oacute;n de informes sobre el estado de la red.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos para Trabajo Remoto:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Conectividad Segura: Necesidades de VPN y accesos remotos que sean seguros y confiables.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Herramientas de Colaboraci&oacute;n: Plataformas que faciliten la comunicaci&oacute;n y colaboraci&oacute;n entre equipos remotos y presenciales.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos F&iacute;sicos y Ambientales:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Infraestructura de Cableado: Planificaci&oacute;n de cableado estructurado que cumpla con las normativas y est&aacute;ndares.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Equipos y Hardware: Identificaci&oacute;n de dispositivos de red (switches, routers, puntos de acceso) necesarios para la implementaci&oacute;n.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos de Capacitaci&oacute;n:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Formaci&oacute;n del Personal: Necesidades de capacitaci&oacute;n para el personal de TI y empleados sobre el uso de nuevas tecnolog&iacute;as y seguridad cibern&eacute;tica.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Documentaci&oacute;n: Creaci&oacute;n de manuales y gu&iacute;as para asegurar que todos los usuarios comprendan c&oacute;mo operar dentro de la nueva infraestructura.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span ><span ><span >Requisitos de Presupuesto:</span></span></span></p>
+        <ul>
+            <li>
+                <p><span ><span ><span >Costos de Implementaci&oacute;n: Estimaci&oacute;n de costos iniciales y recurrentes para la operaci&oacute;n y mantenimiento de la red.</span></span></span></p>
+            </li>
+            <li>
+                <p><span ><span ><span >Retorno de Inversi&oacute;n (ROI): Evaluaci&oacute;n de los beneficios econ&oacute;micos que se espera obtener tras la implementaci&oacute;n del proyecto.</span></span></span></p>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><span ><span ><span ><u>Dispositivos de Red</u></span></span></span></p>
+<ul>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Routers (Enrutadores):</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Para conectar la red de la empresa a internet y gestionar el tr&aacute;fico de datos entre diferentes redes.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Router WAN: Para interconectar las distintas sedes de la empresa.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Switches:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Switches de Capa 2: Para la comunicaci&oacute;n local dentro de cada piso (como los que se conectar&aacute;n a las oficinas y laboratorios).</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Switches de Capa 3: Si se requiere interconexi&oacute;n entre diferentes VLANs o mayor capacidad de enrutamiento interno.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Switches de PoE (Power over Ethernet): Para alimentar dispositivos como puntos de acceso WLAN y c&aacute;maras de seguridad a trav&eacute;s del cable Ethernet.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Access Points (Puntos de Acceso):</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Para proporcionar la conectividad Wi-Fi en toda la oficina.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Considera puntos de acceso con tecnolog&iacute;a WPA3 y capacidad para gestionar m&uacute;ltiples conexiones simult&aacute;neas.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Firewalls:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Para proteger la red de intrusos y gestionar el tr&aacute;fico entrante y saliente.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Considera un firewall de pr&oacute;xima generaci&oacute;n (NGFW) para una mejor protecci&oacute;n y filtrado.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Servidores:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Servidor de Dominio (Active Directory): Para la gesti&oacute;n de identidades y acceso.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Servidor de Impresi&oacute;n: Para gestionar las impresoras conectadas en la red.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Servidor VPN: Para facilitar el acceso seguro de los empleados que trabajan de forma remota.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Equipos de Monitoreo: Dispositivos que gestionen y monitoreen el tr&aacute;fico y el rendimiento de la red, como un NMS (Network Management System).</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >C&aacute;maras de Seguridad: Para supervisar las instalaciones y mejorar la seguridad f&iacute;sica de la empresa.</span></span></span></span></p>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >Cables y Accesorios:</span></span></span></span></p>
+        <ul>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Cables Ethernet (Cat6 o Cat6a): Para conexiones por cable de alta velocidad.</span></span></span></span></p>
+            </li>
+            <li>
+                <p><span style="color: #000000;"><span ><span ><span >Patch Panels y Casetes: Para organizar y gestionar las conexiones de red en los racks.</span></span></span></span></p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p><span style="color: #000000;"><span ><span ><span >UPS (Sistema de Alimentaci&oacute;n Ininterrumpida): Para asegurar la continuidad del servicio en caso de cortes de energ&iacute;a.</span></span></span></span></p>
+    </li>
+</ul>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <br>
+        </div>
+
+        <br>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="small text-center text-custom-muted fst-italic">Copyright &copy; Jamal 2024</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Script para cambiar la imagen del modal -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script>
+            function showImage(imageSrc) {
+                document.getElementById("modalImage").src = imageSrc;
+            }
+        </script>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- Codigo que controla el menu -->
+        <script>
+            // Cierra el menú colapsable al hacer clic en un enlace y realiza un desplazamiento suave
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            const navbarCollapse = document.getElementById('navbarResponsive');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', (event) => {
+                    // Obtener el destino al que debe ir el enlace
+                    const targetId = link.getAttribute('href');
+            
+                    // Comprobar si el destino es un ID de sección
+                    if (targetId.startsWith('#')) {
+                        // Evitar el comportamiento predeterminado
+                        event.preventDefault();
+            
+                        // Seleccionar el elemento objetivo
+                        const targetElement = document.querySelector(targetId);
+            
+                        // Desplazarse suavemente al elemento
+                        if (targetElement) {
+                            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    } else {
+                        // Si no es un ID, se considera un enlace externo
+                        // Permitir el comportamiento predeterminado para la redirección
+                        window.location.href = targetId;
+                    }
+            
+                    // Si el menú está colapsado, ciérralo
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                });
+            });
+
+        </script>
+
+
+        <!-- Modal Imagenes-->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">Vista de Imagen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modalImage" src="" alt="Imagen en grande" class="w-100 h-100 object-fit-cover">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
